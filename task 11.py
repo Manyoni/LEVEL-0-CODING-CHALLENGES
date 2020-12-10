@@ -6,8 +6,12 @@ def printing_common_characters(str1,str2):
     for i in a:
          character = character+1
          characters_list.append(i)
-    print (characters_list)
+    return characters_list
 
-printing_common_characters("house","computer")
+a = printing_common_characters("house","computer")
+print ("Common letters:",a)
+
+
+
 
 
