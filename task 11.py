@@ -7,7 +7,10 @@ def printing_common_characters(str1,str2):
     
 
 a = printing_common_characters("house","computer")
-print ("Common letters:",a)
+print ("Common letters:",*a ,sep =" , ")
+
+
+
 
 
 
